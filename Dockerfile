@@ -1,5 +1,4 @@
-ARG BASE_IMAGE
-FROM ${BASE_IMAGE:-zephyrprojectrtos/ci:latest}
+FROM ghcr.io/zephyrproject-rtos/ci:v0.26.6
 
 # Cache Zephyr repositories
 RUN mkdir -p /repo-cache/zephyrproject && \
