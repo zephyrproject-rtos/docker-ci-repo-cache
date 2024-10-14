@@ -1,4 +1,4 @@
-FROM ghcr.io/zephyrproject-rtos/ci:v0.26.15
+FROM ghcr.io/zephyrproject-rtos/ci:main@sha256:4e337e98b2d894cd73d62d030e35ae957bf0259dbc430439dd4380002f0493cc
 
 # Cache Zephyr repositories
 RUN mkdir -p /repo-cache/zephyrproject && \
