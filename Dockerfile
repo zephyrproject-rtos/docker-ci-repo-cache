@@ -1,4 +1,4 @@
-FROM ghcr.io/zephyrproject-rtos/ci:v0.29.1
+FROM ghcr.io/zephyrproject-rtos/ci:v0.29.2
 
 # Cache Zephyr repositories
 RUN mkdir -p /repo-cache/zephyrproject && \
